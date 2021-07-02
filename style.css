@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-image: url('bg.jpeg'); 
+    background-size: cover; */
+  overflow: hidden;
+  height: 100vh;
+}
+
+.taskbar {
+  background-color: #f3f3f3;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  z-index: 100;
+  justify-content: center;
+}
+
+.startmenu {
+  position: absolute;
+  bottom: -655px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease-in;
+}
+
+.startmenu img {
+  border-radius: 8px;
+}
+
+.nWin{
+  position: absolute;
+  right: -700px;
+  bottom: 10px;
+  width: 100%;
+  text-align: right;
+  transition: all 0.3s ease-in-out;
+}
+
+.searchWin {
+  position: absolute;
+  bottom: -655px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease-in;
+}
+
+.vscWin {
+  position: absolute;
+  bottom: -655px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease-in;
+}
+
+.edgeWin {
+  position: absolute;
+  bottom: -690px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease-in;
+}
+
+.fileWin {
+  position: absolute;
+  bottom: -720px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease-in;
+}
+
+.fileWin img {
+  border-radius: 8px;
+}
+
+.storeWin {
+  position: absolute;
+  bottom: -720px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease-in;
+}
+
+.storeWin img {
+  border-radius: 8px;
+}
+
+.widgets{
+  position: absolute;
+  left: -700px;
+  width: 100%;
+  height: 2000px;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+}
+
+.widgets img{
+  position: absolute
+}
+
+.widgetButton {
+  justify-self: flex-end;
+  position: absolute;
+  left: 0;
+  margin: 6px 0;
+  height: 200px;
+}
+
+.tikWin{
+  position:absolute;
+  bottom: -790px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease-in;
+}
+
+
+
+/* vscWin*/
+.vscWin img {
+  border-radius: 8px;
+}
+
+.edgeWin img {
+  border-radius: 8px;
+}
+
+.searchWin img {
+  border-radius: 8px;
+}
+
+.right {
+  justify-self: flex-end;
+  position: absolute;
+  right: 0;
+  margin: 6px 0;
+  height: 85%;
+}
+.icons {
+  color: white;
+}
+
+.winLogo {
+  position: absolute;
+  display: flex;
+  margin-right: 300px;
+}
+
+.searchLogo {
+  position: absolute;
+  display: flex;
+  margin-right: 220px;
+}
+
+.chromeLogo {
+  position: absolute;
+  display: flex;
+  margin-left: 40px;
+}
+
+.vscLogo {
+  position: absolute;
+  display: flex;
+  margin-left: 135px;
+}
+
+.storeLogo {
+  position: absolute;
+  display: flex;
+  text-align: bottom;
+  bottom:0px;
+  margin-left: 480px;
+}
+
+.fileLogo {
+  position: absolute;
+  display: flex;
+  text-align: bottom;
+  bottom:12px;
+  margin-left: 300px;
+}
+
+.tikIcon {
+  position: absolute;
+  display: flex;
+  text-align: bottom;
+  bottom:6px;
+  margin-left: 440px;
+}
+
+.video {
+  position: absolute;
+  bottom: 0;
+}
+
+
+
